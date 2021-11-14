@@ -8,7 +8,7 @@ fs.writeFileSync(
     "ConfigSGW.cs",
     (
 `
-namespace sms_portal_gwp
+namespace sms_portal_sgp
 {
     public class ConfigSGW
     {

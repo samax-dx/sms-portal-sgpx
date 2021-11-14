@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Flurl.Http;
 
-namespace sms_portal_gwp
+namespace sms_portal_sgp
 {
     class Program
     {
@@ -51,7 +51,7 @@ namespace sms_portal_gwp
             if (eval == null) Environment.Exit(1);
             
             var result = await eval(payload);
-            Console.WriteLine(result);
+            Console.WriteLine(QString.Base64Decode(result));
         }
     }
 }

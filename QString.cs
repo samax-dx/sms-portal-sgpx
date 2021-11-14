@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace sms_portal_gwp
+namespace sms_portal_sgp
 {
     public static class QString
     {

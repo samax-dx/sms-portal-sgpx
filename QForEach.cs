@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace sms_portal_gwp
+namespace sms_portal_sgp
 {
     public static class QForEach
     {
