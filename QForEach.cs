@@ -9,7 +9,7 @@ namespace sms_portal_sgp
         public static void ForEach<T>(this IEnumerable<T> e, Action<T, int> cb)
         {
             var index = 0;
-            foreach (var item in e) cb(item, index);
+            foreach (var item in e) cb(item, index++);
         }
     }
 }
